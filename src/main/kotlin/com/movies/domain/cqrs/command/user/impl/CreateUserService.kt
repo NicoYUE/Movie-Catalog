@@ -13,6 +13,8 @@ class CreateUserService: ICreateUser {
     private lateinit var userRepository: UserRepository
 
     override fun createUser(user: User): User {
-        return userRepository.addUser(user)
+        userRepository.find(user.username)
+            .ifPresent { throw Exception("User ${user.username} already exists") }
+        return userRepository.save(user)
     }
 }

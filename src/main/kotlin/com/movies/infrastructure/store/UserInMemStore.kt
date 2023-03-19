@@ -12,7 +12,7 @@ class UserInMemStore(
     private val userMap: MutableMap<SelfManagedID, User> = HashMap()
 ) : UserRepository {
 
-    override fun addUser(user: User): User {
+    override fun save(user: User): User {
         userMap[user.userId] = user
         return user
     }
@@ -22,7 +22,7 @@ class UserInMemStore(
         TODO("Not yet implemented")
     }
 
-    override fun findUserById(id: String): User {
+    override fun find(id: String): User {
         val managedId = SelfManagedID(id)
         if (!userMap.containsKey(managedId)) {
             throw Exception("Couldn't find id: $id")

@@ -9,6 +9,6 @@ import org.springframework.stereotype.Service
 class FindUserByIdService(val userRepository: UserRepository) : IFindUserById {
 
     override fun findUserById(id: String): User {
-        return id.let { userRepository.findUserById(it) }
+        return id.let { userRepository.find(it) }
     }
 }
