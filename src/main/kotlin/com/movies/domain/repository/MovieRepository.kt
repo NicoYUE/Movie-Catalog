@@ -4,6 +4,7 @@ import com.movies.domain.model.Movie
 
 interface MovieRepository {
 
-    fun addMovie(movie: Movie)
-    fun deleteMovie(movie: Movie)
+    fun save(movie: Movie): Movie
+    fun find(key: String): Movie
+    fun delete(movie: Movie)
 }
