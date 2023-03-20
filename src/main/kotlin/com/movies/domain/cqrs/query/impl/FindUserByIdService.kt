@@ -1,14 +1,14 @@
 package com.movies.domain.cqrs.query.impl
 
-import com.movies.domain.cqrs.query.IFindUserById
+import com.movies.domain.cqrs.query.IFindUserByUsername
 import com.movies.domain.model.User
 import com.movies.domain.repository.UserRepository
 import org.springframework.stereotype.Service
 
 @Service
-class FindUserByIdService(val userRepository: UserRepository) : IFindUserById {
+class FindUserByIdService(val userRepository: UserRepository) : IFindUserByUsername {
 
-    override fun findUserById(id: String): User {
-        return id.let { userRepository.find(it) }
+    override fun findUserByUsername(username: String): User {
+        return userRepository.find(username) ?: throw Exception("User $username not found")
     }
 }

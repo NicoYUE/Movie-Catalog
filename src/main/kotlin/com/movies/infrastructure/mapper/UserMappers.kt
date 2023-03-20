@@ -1,7 +1,7 @@
 package com.movies.infrastructure.mapper
 
 import com.movies.domain.model.User
-import com.movies.infrastructure.cassandra.UserCassandraEntity
+import com.movies.infrastructure.cassandra.entity.UserCassandraEntity
 import com.movies.infrastructure.sql.entity.UserEntity
 
 class UserMappers {

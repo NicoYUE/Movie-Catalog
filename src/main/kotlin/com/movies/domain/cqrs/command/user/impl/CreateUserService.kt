@@ -7,14 +7,10 @@ import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.stereotype.Service
 
 @Service
-class CreateUserService: ICreateUser {
-
-    @Autowired
-    private lateinit var userRepository: UserRepository
+class CreateUserService(val userRepository: UserRepository): ICreateUser {
 
     override fun createUser(user: User): User {
-        userRepository.find(user.username)
-            .ifPresent { throw Exception("User ${user.username} already exists") }
+        userRepository.find(user.username)?.let { throw Exception("User ${it.username} already exists") }
         return userRepository.save(user)
     }
 }

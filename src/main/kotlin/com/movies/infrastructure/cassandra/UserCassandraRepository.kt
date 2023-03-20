@@ -6,9 +6,7 @@ import com.movies.infrastructure.mapper.UserMappers.Companion.fromCassandraEntit
 import com.movies.infrastructure.mapper.UserMappers.Companion.toCassandraEntity
 import org.springframework.context.annotation.Primary
 import org.springframework.stereotype.Repository
-import java.util.*
 
-@Primary
 @Repository
 class UserCassandraRepository(
     val cassandraRepository: ImportedUserCassandraRepository
@@ -20,8 +18,8 @@ class UserCassandraRepository(
             .let { fromCassandraEntity(it) }
     }
 
-    override fun find(username: String): Optional<User> {
+    override fun find(username: String): User? {
         return cassandraRepository.findOneByUsername(username)
-            .map { entity -> fromCassandraEntity(entity) }
+            ?.let { fromCassandraEntity(it) }
     }
 }

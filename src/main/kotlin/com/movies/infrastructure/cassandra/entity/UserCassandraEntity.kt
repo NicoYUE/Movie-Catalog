@@ -1,4 +1,4 @@
-package com.movies.infrastructure.cassandra
+package com.movies.infrastructure.cassandra.entity
 
 import org.springframework.data.cassandra.core.mapping.PrimaryKey
 import org.springframework.data.cassandra.core.mapping.Table

@@ -6,5 +6,5 @@ import java.util.*
 interface UserRepository {
 
     fun save(user: User): User
-    fun find(username: String): Optional<User>
+    fun find(username: String): User?
 }
