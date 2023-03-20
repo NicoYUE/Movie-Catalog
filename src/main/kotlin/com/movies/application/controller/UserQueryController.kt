@@ -2,7 +2,7 @@ package com.movies.application.controller
 
 import com.movies.application.dto.UserDto
 import com.movies.application.dto.UserDto.Companion.fromDomain
-import com.movies.domain.cqrs.query.IFindUserByUsername
+import com.movies.domain.query.IFindUserByUsername
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.RequestBody
 import org.springframework.web.bind.annotation.RequestMapping

@@ -1,4 +1,4 @@
-package com.movies.domain.cqrs.query
+package com.movies.domain.query
 
 import com.movies.domain.model.User
 

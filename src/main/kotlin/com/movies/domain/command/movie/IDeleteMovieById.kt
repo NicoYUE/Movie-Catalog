@@ -1,4 +1,4 @@
-package com.movies.domain.cqrs.command.movie
+package com.movies.domain.command.movie
 
 interface IDeleteMovieById {
 
