@@ -1,7 +1,7 @@
 package com.movies.application.controller
 
 import com.movies.application.dto.MovieDto
-import com.movies.domain.command.movie.ICreateMovie
+import com.movies.domain.service.movie.ICreateMovie
 import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.PostMapping
 import org.springframework.web.bind.annotation.RequestBody
@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController
 
 @RestController
 @RequestMapping("/api/v1/movie")
-class MovieCommandController(
+class MovieController(
     val createMovieService: ICreateMovie
 ) {
 

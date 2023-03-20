@@ -1,4 +1,4 @@
-package com.movies.domain.command.user
+package com.movies.domain.service.catalog
 
 interface IAddSeen {
 

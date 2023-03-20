@@ -1,4 +1,4 @@
-package com.movies.domain.command.movie
+package com.movies.domain.service.movie
 
 interface IDeleteMovieById {
 

@@ -1,22 +1,21 @@
-package com.movies.domain.cqrs.command.user.impl
+package com.movies.domain.service.catalog.impl
 
-import com.movies.domain.command.user.IAddSeen
 import com.movies.domain.repository.MovieRepository
 import com.movies.domain.repository.UserRepository
+import com.movies.domain.service.catalog.IAddSeeLater
 import org.springframework.stereotype.Service
 
 @Service
-class AddSeenService(
+class AddSeeLaterService(
     val userRepository: UserRepository,
     val movieRepository: MovieRepository
-) : IAddSeen {
+) : IAddSeeLater {
 
-    override fun addSeen(title: String, username: String) {
-
+    override fun addSeeLater(title: String, username: String) {
         movieRepository.find(title) ?: throw Exception("Movie $title does not exist")
         val user = userRepository.find(username) ?: throw Exception("User $username does not exist")
 
-        user.seen.plus(title)
+        user.seeLater.plus(title)
         userRepository.save(user)
     }
 }

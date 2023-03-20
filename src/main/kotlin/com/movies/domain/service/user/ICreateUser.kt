@@ -1,4 +1,4 @@
-package com.movies.domain.command.user
+package com.movies.domain.service.user
 
 import com.movies.domain.model.User
 

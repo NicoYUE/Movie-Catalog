@@ -1,7 +1,7 @@
 package com.movies.application.controller
 
 import com.movies.application.dto.UserDto
-import com.movies.domain.command.user.ICreateUser
+import com.movies.domain.service.user.ICreateUser
 import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.PostMapping
 import org.springframework.web.bind.annotation.RequestBody
@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController
 
 @RestController
 @RequestMapping("/api/v1/user")
-class UserCommandController(
+class UserController(
     val createUserService: ICreateUser
 ) {
 

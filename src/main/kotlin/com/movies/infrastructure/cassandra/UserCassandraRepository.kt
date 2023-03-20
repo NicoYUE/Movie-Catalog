@@ -2,9 +2,9 @@ package com.movies.infrastructure.cassandra
 
 import com.movies.domain.model.User
 import com.movies.domain.repository.UserRepository
+import com.movies.infrastructure.cassandra.imported.ImportedUserCassandraRepository
 import com.movies.infrastructure.mapper.UserMappers.Companion.fromCassandraEntity
 import com.movies.infrastructure.mapper.UserMappers.Companion.toCassandraEntity
-import org.springframework.context.annotation.Primary
 import org.springframework.stereotype.Repository
 
 @Repository

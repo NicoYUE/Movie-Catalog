@@ -2,6 +2,7 @@ package com.movies.infrastructure.cassandra
 
 import com.movies.domain.model.Movie
 import com.movies.domain.repository.MovieRepository
+import com.movies.infrastructure.cassandra.imported.ImportedMovieCassandraRepository
 import com.movies.infrastructure.mapper.MovieMappers.Companion.fromCassandraEntity
 import com.movies.infrastructure.mapper.MovieMappers.Companion.toCassandraEntity
 import org.springframework.stereotype.Repository

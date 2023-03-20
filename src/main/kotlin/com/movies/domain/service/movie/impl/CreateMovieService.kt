@@ -1,6 +1,6 @@
-package com.movies.domain.command.movie.impl
+package com.movies.domain.service.movie.impl
 
-import com.movies.domain.command.movie.ICreateMovie
+import com.movies.domain.service.movie.ICreateMovie
 import com.movies.domain.model.Movie
 import com.movies.domain.repository.MovieRepository
 import org.springframework.stereotype.Service
