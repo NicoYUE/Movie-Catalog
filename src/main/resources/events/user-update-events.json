@@ -1,0 +1,26 @@
+[
+  {
+    "eventAction": "UPDATE",
+    "username": "MisterYue",
+    "title": "The Lord of the Rings: The Fellowship of the Ring",
+    "eventType": "seen"
+  },
+  {
+    "eventAction": "UPDATE",
+    "username": "MisterYue",
+    "title": "The Godfather",
+    "eventType": "seen"
+  },
+  {
+    "eventAction": "UPDATE",
+    "username": "MisterYue",
+    "title": "Inception",
+    "eventType": "seen"
+  },
+  {
+    "eventAction": "UPDATE",
+    "username": "MisterYue",
+    "title": "The Dark Knight",
+    "eventType": "seen"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "eventAction": "CREATE",
+    "username": "MisterYue",
+    "title": "The Lord of the Rings: The Fellowship of the Ring",
+    "rating": 5.0
+  },
+  {
+    "eventAction": "CREATE",
+    "username": "MisterYue",
+    "title": "The Godfather",
+    "rating":  4.5
+  },
+  {
+    "eventAction": "CREATE",
+    "username": "MisterYue",
+    "title": "Inception",
+    "rating":  4.5
+  },
+  {
+    "eventAction": "CREATE",
+    "username": "MisterYue",
+    "title": "The Dark Knight",
+    "rating":  4.0
+  },
+  {
+    "eventAction": "UPDATE",
+    "username": "MisterYue",
+    "title": "The Dark Knight",
+    "rating":  3.0
+  }
+]
