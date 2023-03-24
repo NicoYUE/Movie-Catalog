@@ -1,0 +1,52 @@
+[
+  {
+    "title": "The Godfather",
+    "director": "Francis Ford Coppola",
+    "genres": ["Crime", "Drama"]
+  },
+  {
+    "title": "The Shawshank Redemption",
+    "director": "Frank Darabont",
+    "genres": ["Drama"]
+  },
+  {
+    "title": "The Dark Knight",
+    "director": "Christopher Nolan",
+    "genres": ["Action", "Crime", "Drama"]
+  },
+  {
+    "title": "Pulp Fiction",
+    "director": "Quentin Tarantino",
+    "genres": ["Crime", "Drama"]
+  },
+  {
+    "title": "The Matrix",
+    "director": "Lana Wachowski",
+    "genres": ["Action", "Sci-Fi"]
+  },
+  {
+    "title": "The Silence of the Lambs",
+    "director": "Jonathan Demme",
+    "genres": ["Crime", "Drama", "Thriller"]
+  },
+  {
+    "title": "Forrest Gump",
+    "director": "Robert Zemeckis",
+    "genres": ["Comedy", "Drama", "Romance"]
+  },
+  {
+    "title": "Inception",
+    "director": "Christopher Nolan",
+    "genres": ["Action", "Sci-Fi"]
+  },
+  {
+    "title": "The Lord of the Rings: The Fellowship of the Ring",
+    "director": "Peter Jackson",
+    "genres": ["Action", "Adventure", "Drama"]
+  },
+  {
+    "title": "The Grand Budapest Hotel",
+    "director": "Wes Anderson",
+    "genres": ["Adventure", "Comedy", "Drama"]
+  }
+]

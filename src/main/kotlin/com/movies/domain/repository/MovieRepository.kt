@@ -1,9 +1,11 @@
 package com.movies.domain.repository
 
 import com.movies.domain.model.Movie
+import java.util.Optional
 
 interface MovieRepository {
 
-    fun addMovie(movie: Movie)
-    fun deleteMovie(movie: Movie)
+    fun save(movie: Movie): Movie
+
+    fun find(title: String): Movie?
 }

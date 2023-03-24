@@ -1,0 +1,96 @@
+[
+  {
+    "eventAction": "CREATE",
+    "title": "The Shawshank Redemption",
+    "director": "Frank Darabont",
+    "genres": [
+      "DRAMA",
+      "CRIME"
+    ]
+  },
+  {
+    "eventAction": "CREATE",
+    "title": "The Godfather",
+    "director": "Francis Ford Coppola",
+    "genres": [
+      "DRAMA",
+      "CRIME"
+    ]
+  },
+  {
+    "eventAction": "CREATE",
+    "title": "The Dark Knight",
+    "director": "Christopher Nolan",
+    "genres": [
+      "ACTION",
+      "CRIME",
+      "DRAMA"
+    ]
+  },
+  {
+    "eventAction": "CREATE",
+    "title": "Schindler's List",
+    "director": "Steven Spielberg",
+    "genres": [
+      "DRAMA",
+      "HISTORY"
+    ]
+  },
+  {
+    "eventAction": "CREATE",
+    "title": "The Lord of the Rings: The Return of the King",
+    "director": "Peter Jackson",
+    "genres": [
+      "ADVENTURE",
+      "DRAMA",
+      "FANTASY"
+    ]
+  },
+  {
+    "eventAction": "CREATE",
+    "title": "Pulp Fiction",
+    "director": "Quentin Tarantino",
+    "genres": [
+      "CRIME",
+      "DRAMA"
+    ]
+  },
+  {
+    "eventAction": "CREATE",
+    "title": "The Lord of the Rings: The Fellowship of the Ring",
+    "director": "Peter Jackson",
+    "genres": [
+      "ADVENTURE",
+      "DRAMA",
+      "FANTASY"
+    ]
+  },
+  {
+    "eventAction": "CREATE",
+    "title": "Forrest Gump",
+    "director": "Robert Zemeckis",
+    "genres": [
+      "DRAMA",
+      "ROMANCE"
+    ]
+  },
+  {
+    "eventAction": "CREATE",
+    "title": "Inception",
+    "director": "Christopher Nolan",
+    "genres": [
+      "ACTION",
+      "ADVENTURE",
+      "SCI_FI"
+    ]
+  },
+  {
+    "eventAction": "CREATE",
+    "title": "The Matrix",
+    "director": "The Wachowskis",
+    "genres": [
+      "ACTION",
+      "SCI_FI"
+    ]
+  }
+]

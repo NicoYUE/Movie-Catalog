@@ -1,0 +1,7 @@
+package com.movies.infrastructure.cassandra.imported
+
+import com.movies.infrastructure.cassandra.entity.RatingByUsernameCassandraEntity
+import org.springframework.data.cassandra.repository.CassandraRepository
+
+interface ImportedRatingByUsernameCassandraRepository: CassandraRepository<RatingByUsernameCassandraEntity, String> {
+}

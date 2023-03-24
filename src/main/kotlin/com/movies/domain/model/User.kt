@@ -6,6 +6,9 @@ data class User(
     val seen: List<String> = emptyList(),
     val seeLater: List<String> = emptyList()
 ) {
-    constructor(username: String, seen: List<String>, seeLater: List<String>): this(SelfManagedID(), username, seen, seeLater)
-    constructor(id: String, username: String, seen: List<String>, seeLater: List<String>): this(SelfManagedID(id), username, seen, seeLater)
+    constructor(username: String, seen: List<String>, seeLater: List<String>) :
+            this(SelfManagedID(), username, seen, seeLater)
+
+    constructor(id: String, username: String, seen: List<String>, seeLater: List<String>) :
+            this(SelfManagedID(id), username, seen, seeLater)
 }

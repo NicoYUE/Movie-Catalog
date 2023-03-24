@@ -1,10 +1,10 @@
 package com.movies.domain.repository
 
 import com.movies.domain.model.User
+import java.util.*
 
 interface UserRepository {
 
-    fun addUser(user: User): User
-    fun updateUser(user: User): User
-    fun findUserById(id: String): User
+    fun save(user: User): User
+    fun find(username: String): User?
 }

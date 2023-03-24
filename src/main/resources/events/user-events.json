@@ -1,0 +1,32 @@
+[
+  {
+    "eventAction": "CREATE",
+    "username": "Nyue",
+    "seen": [],
+    "seeLater": []
+  },
+  {
+    "eventAction": "CREATE",
+    "username": "MisterYue",
+    "seen": [],
+    "seeLater": []
+  },
+  {
+    "eventAction": "CREATE",
+    "username": "bob_smith",
+    "seen": [],
+    "seeLater": []
+  },
+  {
+    "eventAction": "CREATE",
+    "username": "mary_jones",
+    "seen": [],
+    "seeLater": []
+  },
+  {
+    "eventAction": "CREATE",
+    "username": "jimmy_kim",
+    "seen": [],
+    "seeLater": []
+  }
+]
