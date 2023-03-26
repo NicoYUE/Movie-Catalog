@@ -28,7 +28,7 @@ class ReplayEventService(
                     "seen" -> addSeenService.addSeen(event.title, event.username)
                     "seeLater" -> addSeeLaterService.addSeeLater(event.title, event.username)
                 }
-                is RateEvent -> rateMovie.rate(event.title, event.username, event.rating)
+                is RateEvent -> rateMovie.rate(event.username, event.title, event.rating)
             }
         }
     }
