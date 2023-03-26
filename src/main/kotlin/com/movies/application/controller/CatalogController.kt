@@ -12,7 +12,8 @@ import org.springframework.web.bind.annotation.RestController
 @RestController
 @RequestMapping("/api/v1/catalog")
 class CatalogController(
-     val catalogService: CatalogService) {
+     private val catalogService: CatalogService
+) {
 
     @PostMapping("addSeen")
     fun addUser(@RequestBody seenCommand: AddSeenCommand): ResponseEntity<String> {
@@ -22,7 +23,7 @@ class CatalogController(
 
     @PostMapping("rateMovie")
     fun rate(@RequestBody rateCommand: RateCommand): ResponseEntity<String> {
-        rateCommand.let { catalogService.rateMovie(it.username, it.movieTitle, it.rating) }
+        rateCommand.let { catalogService.rate(it.username, it.movieTitle, it.rating.rate) }
         return ResponseEntity.ok("User ${rateCommand.username} rated movie ${rateCommand.movieTitle} : ${rateCommand.rating}")
     }
 }

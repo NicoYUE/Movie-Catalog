@@ -2,31 +2,79 @@
   {
     "eventAction": "CREATE",
     "username": "MisterYue",
-    "title": "The Lord of the Rings: The Fellowship of the Ring",
+    "title": "Pulp Fiction",
+    "rating": 4.0
+  },
+  {
+    "eventAction": "CREATE",
+    "username": "MisterYue",
+    "title": "The Dark Knight",
+    "rating": 1.0
+  },
+  {
+    "eventAction": "CREATE",
+    "username": "Nyue",
+    "title": "Inception",
+    "rating": 4.5
+  },
+  {
+    "eventAction": "CREATE",
+    "username": "Nyue",
+    "title": "The Matrix",
+    "rating": 3.0
+  },
+  {
+    "eventAction": "CREATE",
+    "username": "Nyue",
+    "title": "Forrest Gump",
+    "rating": 3.5
+  },
+  {
+    "eventAction": "CREATE",
+    "username": "bob_smith",
+    "title": "Forrest Gump",
+    "rating": 2.0
+  },
+  {
+    "eventAction": "CREATE",
+    "username": "bob_smith",
+    "title": "The Godfather",
+    "rating": 3.5
+  },
+  {
+    "eventAction": "CREATE",
+    "username": "bob_smith",
+    "title": "Inception",
+    "rating": 1.5
+  },
+  {
+    "eventAction": "CREATE",
+    "username": "mary_jones",
+    "title": "Schindler's List",
+    "rating": 4.5
+  },
+  {
+    "eventAction": "CREATE",
+    "username": "mary_jones",
+    "title": "The Lord of the Rings: The Return of the King",
+    "rating": 4.0
+  },
+  {
+    "eventAction": "CREATE",
+    "username": "jimmy_kim",
+    "title": "Inception",
+    "rating": 0.0
+  },
+  {
+    "eventAction": "CREATE",
+    "username": "jimmy_kim",
+    "title": "Forrest Gump",
     "rating": 5.0
   },
   {
     "eventAction": "CREATE",
-    "username": "MisterYue",
-    "title": "The Godfather",
-    "rating":  4.5
-  },
-  {
-    "eventAction": "CREATE",
-    "username": "MisterYue",
-    "title": "Inception",
-    "rating":  4.5
-  },
-  {
-    "eventAction": "CREATE",
-    "username": "MisterYue",
-    "title": "The Dark Knight",
-    "rating":  4.0
-  },
-  {
-    "eventAction": "UPDATE",
-    "username": "MisterYue",
-    "title": "The Dark Knight",
-    "rating":  3.0
+    "username": "jimmy_kim",
+    "title": "The Matrix",
+    "rating": 5.0
   }
 ]

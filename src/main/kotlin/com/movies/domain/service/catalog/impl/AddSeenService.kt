@@ -16,7 +16,7 @@ class AddSeenService(
         movieRepository.find(title) ?: throw Exception("Movie $title does not exist")
         val user = userRepository.find(username) ?: throw Exception("User $username does not exist")
 
-        user.seen.plus(title)
+        user.seen.add(title)
         userRepository.save(user)
     }
 }

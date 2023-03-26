@@ -5,5 +5,4 @@ data class RateEvent(
     val username: String,
     val title: String,
     val rating: Double
-) {
-}
+) : Event

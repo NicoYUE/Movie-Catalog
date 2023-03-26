@@ -8,6 +8,6 @@ data class UserCassandraEntity(
     @PrimaryKey
     val username: String,
     val id: String,
-    val seen: List<String>?,
-    val seeLater: List<String>?
+    val seen: MutableList<String>?,
+    val seeLater: MutableList<String>?
 )

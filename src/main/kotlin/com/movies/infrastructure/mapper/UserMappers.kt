@@ -19,8 +19,8 @@ class UserMappers {
             User(
                 userCassandraEntity.id,
                 userCassandraEntity.username,
-                userCassandraEntity.seen ?: emptyList(),
-                userCassandraEntity.seeLater ?: emptyList()
+                userCassandraEntity.seen ?: mutableListOf(),
+                userCassandraEntity.seeLater ?: mutableListOf()
             )
 
         fun toCassandraEntity(user: User): UserCassandraEntity {

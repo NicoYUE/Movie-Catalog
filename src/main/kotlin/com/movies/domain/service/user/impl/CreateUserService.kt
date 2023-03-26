@@ -9,6 +9,7 @@ import org.springframework.stereotype.Service
 class CreateUserService(val userRepository: UserRepository): ICreateUser {
 
     override fun createUser(user: User): User {
+        print("Saving $user in Cassandra")
         userRepository.find(user.username)?.let { throw Exception("User ${it.username} already exists") }
         return userRepository.save(user)
     }

@@ -9,5 +9,4 @@ data class RatingByUsernameCassandraEntity(
     val username: String,
     val title: String,
     val rating: Double
-) {
-}
+)

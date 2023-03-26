@@ -13,6 +13,6 @@ data class UserEntity(
     val userId: SelfManagedID,
     @Column(unique = true)
     val username: String,
-    val seen: List<String>,
-    val seeLater: List<String>
+    val seen: MutableList<String>,
+    val seeLater: MutableList<String>
 )

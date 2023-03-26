@@ -15,7 +15,7 @@ class AddSeeLaterService(
         movieRepository.find(title) ?: throw Exception("Movie $title does not exist")
         val user = userRepository.find(username) ?: throw Exception("User $username does not exist")
 
-        user.seeLater.plus(title)
+        user.seeLater.add(title)
         userRepository.save(user)
     }
 }

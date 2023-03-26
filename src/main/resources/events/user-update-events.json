@@ -1,26 +1,146 @@
 [
   {
     "eventAction": "UPDATE",
-    "username": "MisterYue",
-    "title": "The Lord of the Rings: The Fellowship of the Ring",
+    "username": "Nyue",
+    "title": "Inception",
     "eventType": "seen"
   },
   {
     "eventAction": "UPDATE",
-    "username": "MisterYue",
+    "username": "Nyue",
+    "title": "The Matrix",
+    "eventType": "seen"
+  },
+  {
+    "eventAction": "UPDATE",
+    "username": "Nyue",
+    "title": "The Lord of the Rings: The Fellowship of the Ring",
+    "eventType": "seeLater"
+  },
+  {
+    "eventAction": "UPDATE",
+    "username": "Nyue",
+    "title": "Forrest Gump",
+    "eventType": "seen"
+  },
+  {
+    "eventAction": "UPDATE",
+    "username": "Nyue",
     "title": "The Godfather",
     "eventType": "seen"
   },
   {
     "eventAction": "UPDATE",
     "username": "MisterYue",
-    "title": "Inception",
+    "title": "Schindler's List",
+    "eventType": "seen"
+  },
+  {
+    "eventAction": "UPDATE",
+    "username": "MisterYue",
+    "title": "Pulp Fiction",
     "eventType": "seen"
   },
   {
     "eventAction": "UPDATE",
     "username": "MisterYue",
     "title": "The Dark Knight",
+    "eventType": "seen"
+  },
+  {
+    "eventAction": "UPDATE",
+    "username": "MisterYue",
+    "title": "The Lord of the Rings: The Return of the King",
+    "eventType": "seeLater"
+  },
+  {
+    "eventAction": "UPDATE",
+    "username": "MisterYue",
+    "title": "The Shawshank Redemption",
+    "eventType": "seen"
+  },
+  {
+    "eventAction": "UPDATE",
+    "username": "bob_smith",
+    "title": "The Lord of the Rings: The Fellowship of the Ring",
+    "eventType": "seen"
+  },
+  {
+    "eventAction": "UPDATE",
+    "username": "bob_smith",
+    "title": "Inception",
+    "eventType": "seen"
+  },
+  {
+    "eventAction": "UPDATE",
+    "username": "bob_smith",
+    "title": "The Matrix",
+    "eventType": "seeLater"
+  },
+  {
+    "eventAction": "UPDATE",
+    "username": "bob_smith",
+    "title": "Forrest Gump",
+    "eventType": "seen"
+  },
+  {
+    "eventAction": "UPDATE",
+    "username": "bob_smith",
+    "title": "The Godfather",
+    "eventType": "seen"
+  },
+  {
+    "eventAction": "UPDATE",
+    "username": "mary_jones",
+    "title": "Schindler's List",
+    "eventType": "seen"
+  },
+  {
+    "eventAction": "UPDATE",
+    "username": "mary_jones",
+    "title": "Pulp Fiction",
+    "eventType": "seen"
+  },
+  {
+    "eventAction": "UPDATE",
+    "username": "mary_jones",
+    "title": "The Dark Knight",
+    "eventType": "seeLater"
+  },
+  {
+    "eventAction": "UPDATE",
+    "username": "mary_jones",
+    "title": "The Lord of the Rings: The Return of the King",
+    "eventType": "seen"
+  },
+  {
+    "eventAction": "UPDATE",
+    "username": "jimmy_kim",
+    "title": "Inception",
+    "eventType": "seen"
+  },
+  {
+    "eventAction": "UPDATE",
+    "username": "jimmy_kim",
+    "title": "The Godfather",
+    "eventType": "seen"
+  },
+  {
+    "eventAction": "UPDATE",
+    "username": "jimmy_kim",
+    "title": "Schindler's List",
+    "eventType": "seeLater"
+  },
+  {
+    "eventAction": "UPDATE",
+    "username": "jimmy_kim",
+    "title": "Forrest Gump",
+    "eventType": "seen"
+  },
+  {
+    "eventAction": "UPDATE",
+    "username": "jimmy_kim",
+    "title": "The Matrix",
     "eventType": "seen"
   }
 ]

@@ -9,7 +9,7 @@ data class UserDto(
     val seeLater: List<String>
 ) {
     fun toDomain(): User {
-        return User(username, seen, seeLater)
+        return User(username, seen.toMutableList(), seeLater.toMutableList())
     }
 
     companion object {
